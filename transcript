@@ -1,0 +1,208 @@
+# Reading C:/altera/13.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do {Inverse.fdo} 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity Complete
+# -- Compiling architecture Behavioral of Complete
+# -- Compiling entity Forward
+# -- Compiling architecture Behavioral of Forward
+# -- Compiling entity LWT
+# -- Compiling architecture Behavioral of LWT
+# -- Compiling entity Split
+# -- Compiling architecture Behavioral of Split
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity Predict
+# -- Compiling architecture Behavioral of Predict
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Update
+# -- Compiling architecture Behavioral of Update
+# -- Compiling entity LWT_2
+# -- Compiling architecture Behavioral of LWT_2
+# -- Compiling entity Split1
+# -- Compiling architecture Behavioral of Split1
+# -- Compiling entity Predict1
+# -- Compiling architecture Behavioral of Predict1
+# -- Compiling entity Update1
+# -- Compiling architecture Behavioral of Update1
+# -- Compiling entity LWT_3
+# -- Compiling architecture Behavioral of LWT_3
+# -- Compiling entity Split2
+# -- Compiling architecture Behavioral of Split2
+# -- Compiling entity Predict2
+# -- Compiling architecture Behavioral of Predict2
+# -- Compiling entity Update2
+# -- Compiling architecture Behavioral of Update2
+# -- Compiling entity Inverse
+# -- Compiling architecture Behavioral of Inverse
+# -- Compiling entity Two_DWT
+# -- Compiling architecture Behavioral of Two_DWT
+# -- Compiling entity Three_IDWT
+# -- Compiling architecture Behavioral of Three_IDWT
+# -- Compiling entity Three_DWT
+# -- Compiling architecture Behavioral of Three_DWT
+# -- Compiling entity ILWT_2
+# -- Compiling architecture Behavioral of ILWT_2
+# -- Compiling entity Merge1
+# -- Compiling architecture Behavioral of Merge1
+# -- Compiling entity IPredict1
+# -- Compiling architecture Behavioral of IPredict1
+# -- Compiling entity IUpdate1
+# -- Compiling architecture Behavioral of IUpdate1
+# -- Compiling entity ILWT_2
+# -- Compiling architecture Behavioral of ILWT_2
+# -- Compiling entity Merge1
+# -- Compiling architecture Behavioral of Merge1
+# -- Compiling entity IPredict1
+# -- Compiling architecture Behavioral of IPredict1
+# -- Compiling entity IUpdate1
+# -- Compiling architecture Behavioral of IUpdate1
+# -- Compiling entity IDWT
+# -- Compiling architecture Behavioral of IDWT
+# -- Compiling entity Merge
+# -- Compiling architecture Behavioral of Merge
+# -- Compiling entity IPredict
+# -- Compiling architecture Behavioral of IPredict
+# -- Compiling entity IUpdate
+# -- Compiling architecture Behavioral of IUpdate
+# -- Compiling entity Two_IDWT
+# -- Compiling architecture Behavioral of Two_IDWT
+# -- Compiling entity Three_IDWT
+# -- Compiling architecture Behavioral of Three_IDWT
+# -- Compiling entity ILWT_3
+# -- Compiling architecture Behavioral of ILWT_3
+# -- Compiling entity Merge2
+# -- Compiling architecture Behavioral of Merge2
+# -- Compiling entity IPredict2
+# -- Compiling architecture Behavioral of IPredict2
+# -- Compiling entity IUpdate2
+# -- Compiling architecture Behavioral of IUpdate2
+# vsim -lib work -voptargs=\"+acc\" -t 1ps work.Inverse 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.inverse(behavioral)
+# Loading work.three_idwt(behavioral)
+# Loading work.ilwt_3(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading ieee.numeric_std(body)
+# Loading work.iupdate2(behavioral)
+# Loading work.ipredict2(behavioral)
+# Loading work.merge2(behavioral)
+# Loading work.two_idwt(behavioral)
+# Loading work.ilwt_2(behavioral)
+# Loading work.iupdate1(behavioral)
+# Loading work.ipredict1(behavioral)
+# Loading work.merge1(behavioral)
+# Loading work.idwt(behavioral)
+# Loading work.iupdate(behavioral)
+# Loading work.ipredict(behavioral)
+# Loading work.merge(behavioral)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Swati Reddy  Hostname: LAPTOP-7ENSIKDG  ProcessID: 3368
+# 
+#           Attempting to use alternate WLF file "./wlft4krs7s".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft4krs7s
+# 
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /inverse/D3/M2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /inverse/D3/M2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /inverse/D2/U1/M2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /inverse/D2/U1/M2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /inverse/D2/P1/M2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /inverse/D2/P1/M2
+force -freeze sim:/inverse/Reset 0 0
+force -freeze sim:/inverse/Reset 1 0
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 1  Instance: /inverse/D2/P1/M2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 1  Instance: /inverse/D2/U1/M2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 1  Instance: /inverse/D3/M2
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/inverse/Clock 1 0, 0 {50 ps} -r 100
+force -freeze sim:/inverse/Start 1 0
+force -freeze sim:/inverse/Reset 0 0
+force -freeze sim:/inverse/LLL 01 0
+force -freeze sim:/inverse/LLH 00 0
+force -freeze sim:/inverse/LHL 10 0
+force -freeze sim:/inverse/LHH 00 0
+force -freeze sim:/inverse/HLL 11 0
+force -freeze sim:/inverse/HLH 01 0
+force -freeze sim:/inverse/HHL 10 0
+force -freeze sim:/inverse/HHH 11 0
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1001 ns  Iteration: 0  Instance: /inverse/D1/HP/M2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1001 ns  Iteration: 0  Instance: /inverse/D1/LP/M2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1001 ns  Iteration: 0  Instance: /inverse/D1/HU/M2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1001 ns  Iteration: 0  Instance: /inverse/D1/LU/M2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1001 ns  Iteration: 1  Instance: /inverse/D2/P1/M2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1001 ns  Iteration: 1  Instance: /inverse/D2/U1/M2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1001 ns  Iteration: 2  Instance: /inverse/D2/P1/M2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1001 ns  Iteration: 2  Instance: /inverse/D2/P1/M2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1001 ns  Iteration: 2  Instance: /inverse/D2/U1/M2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1001 ns  Iteration: 2  Instance: /inverse/D2/U1/M2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1001 ns  Iteration: 3  Instance: /inverse/D2/P1/M2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1001 ns  Iteration: 3  Instance: /inverse/D2/P1/M2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1001 ns  Iteration: 3  Instance: /inverse/D2/U1/M2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1001 ns  Iteration: 3  Instance: /inverse/D2/U1/M2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1001100 ps  Iteration: 1  Instance: /inverse/D2/P1/M2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1001100 ps  Iteration: 1  Instance: /inverse/D2/U1/M2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1001100 ps  Iteration: 1  Instance: /inverse/D3/M2
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1001150 ps  Iteration: 1  Instance: /inverse/D3/M2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1001150 ps  Iteration: 1  Instance: /inverse/D3/M2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1001200 ps  Iteration: 1  Instance: /inverse/D3/M2
+run
+run
+run
+run
+run
+run
+run
